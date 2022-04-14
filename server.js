@@ -2,6 +2,7 @@ const ytch = require ('yt-channel-info');
 
 /**
  * To get the youtube channel stats for Grace Foods
+ * @TODO Add mongoose configuration to the script
  * @param {*} channelId 
  */
 async function getChannelDetails (channelId) {
